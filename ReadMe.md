@@ -1,3 +1,8 @@
+# Proje Tanımı:
+Implement the following paper and show results against classical inverse kinematics results: S. Lloyd, R. A. Irani and M. Ahmadi, "Fast and Robust Inverse Kinematics of Serial Robots Using Halley’s Method," in IEEE Transactions on Robotics, vol. 38, no. 5, pp. 2768-2780, Oct. 2022, doi: 10.1109/TRO.2022.3162954.
+
+
+
 
 # QuIK Codebase
 
