@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E088978-4BA7-35F3-A142-D15B4FF6A03F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BuildUnsupported</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\test;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\unsupported;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\Eigen;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\test;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\unsupported;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\Eigen;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\test;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\unsupported;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\Eigen;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\test;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\unsupported;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\..\..\Eigen;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\unsupported\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindAdolc.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindFFTW.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindGoogleHash.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPFR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindAdolc.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindFFTW.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindGoogleHash.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPFR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindAdolc.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindFFTW.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindGoogleHash.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPFR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindAdolc.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindFFTW.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindGoogleHash.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPFR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\ZERO_CHECK.vcxproj">
+      <Project>{2C9C2B16-3E09-3CCA-8A12-6C4D530F351A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\BVH_1.vcxproj">
+      <Project>{F70A91C9-CFED-347C-AEB4-0178AA160A8E}</Project>
+      <Name>BVH_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\BVH_2.vcxproj">
+      <Project>{84FEEC02-62AB-37B3-BA73-7063F016372F}</Project>
+      <Name>BVH_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\BVH_3.vcxproj">
+      <Project>{422924BD-166D-34D0-99DD-E4738B844394}</Project>
+      <Name>BVH_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\EulerAngles_1.vcxproj">
+      <Project>{D8A613A3-99AE-315C-8922-DFF2277AB0F2}</Project>
+      <Name>EulerAngles_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\EulerAngles_2.vcxproj">
+      <Project>{2B876D2B-DAB4-33FF-9A01-8E0523F114B3}</Project>
+      <Name>EulerAngles_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\EulerAngles_3.vcxproj">
+      <Project>{BE03682F-D865-38EC-9478-0F2A4874AF19}</Project>
+      <Name>EulerAngles_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\EulerAngles_4.vcxproj">
+      <Project>{5211D700-0F97-3B38-A9D3-11392B084CC6}</Project>
+      <Name>EulerAngles_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\FFT.vcxproj">
+      <Project>{60202735-92BC-35EB-A70E-6FDB84010017}</Project>
+      <Name>FFT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\NonLinearOptimization.vcxproj">
+      <Project>{36DC515B-B1ED-36CE-AA25-4C9BA2B64D1E}</Project>
+      <Name>NonLinearOptimization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\NumericalDiff.vcxproj">
+      <Project>{25B8E286-0807-3C78-A964-DE364C81808A}</Project>
+      <Name>NumericalDiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\alignedvector3.vcxproj">
+      <Project>{20CE2274-1315-39EC-9770-7B5C29B492EA}</Project>
+      <Name>alignedvector3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_1.vcxproj">
+      <Project>{A56B7536-26D0-3329-806E-CE1918059633}</Project>
+      <Name>autodiff_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_2.vcxproj">
+      <Project>{D1D9CA43-7360-342F-8156-DFF0965401DD}</Project>
+      <Name>autodiff_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_3.vcxproj">
+      <Project>{943F98DF-3F05-38A5-A0A1-4B2E93C9C546}</Project>
+      <Name>autodiff_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_4.vcxproj">
+      <Project>{1EE2F63C-E6E6-32CE-959B-85F948642B16}</Project>
+      <Name>autodiff_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_5.vcxproj">
+      <Project>{B974C904-283C-368F-94DB-C130B98E55B9}</Project>
+      <Name>autodiff_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_scalar_1.vcxproj">
+      <Project>{664CB5D6-741F-33DD-8CB3-06E8FA6B5840}</Project>
+      <Name>autodiff_scalar_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_scalar_2.vcxproj">
+      <Project>{6741EAE9-2233-32E4-976C-090E619BAFA1}</Project>
+      <Name>autodiff_scalar_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_scalar_3.vcxproj">
+      <Project>{8CAAC389-009E-3D38-978C-6FC72DA817A0}</Project>
+      <Name>autodiff_scalar_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_scalar_4.vcxproj">
+      <Project>{D0FC1036-4FAD-305A-8FF3-63956DD4BC5C}</Project>
+      <Name>autodiff_scalar_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\autodiff_scalar_5.vcxproj">
+      <Project>{B22C2621-3AB1-36A6-B318-17D0858D2574}</Project>
+      <Name>autodiff_scalar_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\bessel_functions_1.vcxproj">
+      <Project>{A7A6D056-9491-33FA-AFA5-40A68AF6F3FE}</Project>
+      <Name>bessel_functions_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\bessel_functions_2.vcxproj">
+      <Project>{F75EB4DA-EBC0-3775-B27C-B31F23A04494}</Project>
+      <Name>bessel_functions_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\dgmres_1.vcxproj">
+      <Project>{9272231F-800D-3781-9044-2B8490DBD955}</Project>
+      <Name>dgmres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\dgmres_2.vcxproj">
+      <Project>{CFFAA89C-A2E4-3CD4-B6B3-A2CD1DC586FA}</Project>
+      <Name>dgmres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\gmres_1.vcxproj">
+      <Project>{6291304A-08EA-399D-8A8C-48BD87080C1D}</Project>
+      <Name>gmres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\gmres_2.vcxproj">
+      <Project>{F06B643F-933A-3FDF-9B96-7F7C64A95BBA}</Project>
+      <Name>gmres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\idrs_1.vcxproj">
+      <Project>{31C6049E-7037-3BCA-A700-52704B919D4B}</Project>
+      <Name>idrs_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\idrs_2.vcxproj">
+      <Project>{675FE149-3ED8-37B7-A701-2DAB39A871F1}</Project>
+      <Name>idrs_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\kronecker_product_1.vcxproj">
+      <Project>{DC16BED4-585F-3ADC-8BCD-CAA778107309}</Project>
+      <Name>kronecker_product_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\kronecker_product_2.vcxproj">
+      <Project>{3B7736C3-67D1-38ED-8EF4-FC185AE5B1E2}</Project>
+      <Name>kronecker_product_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\levenberg_marquardt.vcxproj">
+      <Project>{C0C383A0-E0F2-31FF-AD6E-075BBE47ACB6}</Project>
+      <Name>levenberg_marquardt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_1.vcxproj">
+      <Project>{56D6EE60-9826-392E-B89E-5ACD0EB6A053}</Project>
+      <Name>matrix_exponential_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_2.vcxproj">
+      <Project>{513D5BB0-A9B8-3190-B6E2-46C13B1AA3BB}</Project>
+      <Name>matrix_exponential_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_3.vcxproj">
+      <Project>{C093CABF-BFDF-3C31-89F2-3933DDFCA00C}</Project>
+      <Name>matrix_exponential_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_4.vcxproj">
+      <Project>{54149970-7338-313B-BFDB-D47B86CF5A64}</Project>
+      <Name>matrix_exponential_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_5.vcxproj">
+      <Project>{5B1FE2F1-F13E-3194-AD0B-EDACEFD616DB}</Project>
+      <Name>matrix_exponential_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_6.vcxproj">
+      <Project>{0F514117-B425-3349-AA74-F49C6682FCBA}</Project>
+      <Name>matrix_exponential_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_7.vcxproj">
+      <Project>{80EF1064-A00E-34F6-AB48-362174F2B708}</Project>
+      <Name>matrix_exponential_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_8.vcxproj">
+      <Project>{BB7CA504-727B-3BDA-9E74-F7BD76D6E6FC}</Project>
+      <Name>matrix_exponential_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_exponential_9.vcxproj">
+      <Project>{65A087D6-FBAB-3960-9D94-F301BDF8785F}</Project>
+      <Name>matrix_exponential_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_1.vcxproj">
+      <Project>{3D2D69FA-5B7A-3790-B12A-3089CD21408D}</Project>
+      <Name>matrix_function_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_2.vcxproj">
+      <Project>{94E83D40-B5D4-3E08-A557-E8F02614F891}</Project>
+      <Name>matrix_function_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_3.vcxproj">
+      <Project>{087D210E-3FEE-3747-820C-6F389F9B717A}</Project>
+      <Name>matrix_function_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_4.vcxproj">
+      <Project>{B49BF6D3-3293-3E12-A86E-886D13F10038}</Project>
+      <Name>matrix_function_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_5.vcxproj">
+      <Project>{FB3033DD-CDBE-3FE8-B558-77EC61F3E0F2}</Project>
+      <Name>matrix_function_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_6.vcxproj">
+      <Project>{C30B7F29-EDC7-3BE5-A8FB-6D6B8C5715F8}</Project>
+      <Name>matrix_function_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_function_7.vcxproj">
+      <Project>{E2A51B6F-F42B-3057-961D-22FD17F8BF11}</Project>
+      <Name>matrix_function_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_1.vcxproj">
+      <Project>{ABDB0DC3-5D20-3525-B6D1-3D11BACF8D5B}</Project>
+      <Name>matrix_power_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_10.vcxproj">
+      <Project>{7B20A0D1-5AC7-3B87-B58F-6638A1040124}</Project>
+      <Name>matrix_power_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_11.vcxproj">
+      <Project>{17E0C0F4-F0CF-32ED-975E-882AC84E99EF}</Project>
+      <Name>matrix_power_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_12.vcxproj">
+      <Project>{A0F30E75-11FC-3ED9-A6E8-541D6EBAFEF5}</Project>
+      <Name>matrix_power_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_2.vcxproj">
+      <Project>{1B4E11B2-74DF-378E-A633-CD2CF2C87113}</Project>
+      <Name>matrix_power_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_3.vcxproj">
+      <Project>{F8755284-C8A6-3259-89B0-0C73145C654A}</Project>
+      <Name>matrix_power_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_4.vcxproj">
+      <Project>{2A542040-44F7-32B2-A50A-E7DC963AAF5E}</Project>
+      <Name>matrix_power_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_5.vcxproj">
+      <Project>{28FAFA00-27E6-337A-B2C8-5C36E889D32E}</Project>
+      <Name>matrix_power_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_6.vcxproj">
+      <Project>{E4623C8E-C1CC-3DFE-A769-813B8BEC7533}</Project>
+      <Name>matrix_power_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_7.vcxproj">
+      <Project>{AF31FDF2-6575-3FEE-9314-B9FE4F9366F9}</Project>
+      <Name>matrix_power_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_8.vcxproj">
+      <Project>{491CD405-AD6A-34D8-8785-4C8394C959CE}</Project>
+      <Name>matrix_power_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_power_9.vcxproj">
+      <Project>{D8E48AF5-A43E-3C10-8FAF-6E6E705CD86A}</Project>
+      <Name>matrix_power_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_square_root_1.vcxproj">
+      <Project>{5FA43964-102D-3ECE-855D-220EB8669AD7}</Project>
+      <Name>matrix_square_root_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_square_root_2.vcxproj">
+      <Project>{5A175367-BC8A-370C-9B5D-64DAEB18D281}</Project>
+      <Name>matrix_square_root_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_square_root_3.vcxproj">
+      <Project>{A0978E62-7D33-3E07-86CD-E04D8AD6045D}</Project>
+      <Name>matrix_square_root_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_square_root_4.vcxproj">
+      <Project>{6A9BE6FB-381C-3BF6-8E55-40EF30F7472E}</Project>
+      <Name>matrix_square_root_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\matrix_square_root_5.vcxproj">
+      <Project>{D4301863-97D9-3291-A010-386CE1413FCB}</Project>
+      <Name>matrix_square_root_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\minres_1.vcxproj">
+      <Project>{F8CDD532-6A76-3C43-B02B-7D04E16BCBC3}</Project>
+      <Name>minres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\minres_2.vcxproj">
+      <Project>{A80E9AF9-9A18-38C1-867C-9CA78517A9F0}</Project>
+      <Name>minres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_1.vcxproj">
+      <Project>{89C62EBC-AACD-3539-A21D-75A3A3980F8D}</Project>
+      <Name>polynomialsolver_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_10.vcxproj">
+      <Project>{C78A73D6-2235-3F6D-9083-C78EEB29851E}</Project>
+      <Name>polynomialsolver_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_11.vcxproj">
+      <Project>{BE184CEC-B2A0-3A5D-9D1A-61AEA1E10588}</Project>
+      <Name>polynomialsolver_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_12.vcxproj">
+      <Project>{EC0B8BDA-F311-3F21-9950-626578F2BD7F}</Project>
+      <Name>polynomialsolver_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_2.vcxproj">
+      <Project>{0ECF3565-0635-359E-9D71-53636EC6F666}</Project>
+      <Name>polynomialsolver_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_3.vcxproj">
+      <Project>{6B75712B-5A55-3669-9B87-127C06FC12FC}</Project>
+      <Name>polynomialsolver_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_4.vcxproj">
+      <Project>{00881AA8-9C7F-3039-A121-7444E315EDD9}</Project>
+      <Name>polynomialsolver_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_5.vcxproj">
+      <Project>{2FA6D94F-C2FE-3044-AE62-7FA30E0461F1}</Project>
+      <Name>polynomialsolver_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_6.vcxproj">
+      <Project>{69151331-1736-37E6-B0E1-C46E8C9F13E3}</Project>
+      <Name>polynomialsolver_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_7.vcxproj">
+      <Project>{6046C478-8C6D-31B4-A8B6-DBF99B699BC7}</Project>
+      <Name>polynomialsolver_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_8.vcxproj">
+      <Project>{B87C7D3D-43C3-3260-B14B-A53DD797323D}</Project>
+      <Name>polynomialsolver_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialsolver_9.vcxproj">
+      <Project>{72528464-703F-3207-9FC0-A846B142F24E}</Project>
+      <Name>polynomialsolver_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_2.vcxproj">
+      <Project>{FF266F60-4ADA-3699-A701-D50ADF3F70C5}</Project>
+      <Name>polynomialutils_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_3.vcxproj">
+      <Project>{3EE16BF8-04AB-30C3-8DA2-85FC33ED20B8}</Project>
+      <Name>polynomialutils_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_4.vcxproj">
+      <Project>{1612D875-1FAD-3A3F-81DA-EB7433743AF7}</Project>
+      <Name>polynomialutils_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_5.vcxproj">
+      <Project>{64F9CB92-3966-3C3D-B4F0-6EA64D359244}</Project>
+      <Name>polynomialutils_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_6.vcxproj">
+      <Project>{C8D758A5-1400-3A96-A17C-A1DA532EDDB2}</Project>
+      <Name>polynomialutils_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_7.vcxproj">
+      <Project>{6FB2A638-517C-3504-80EC-3C2213C1EC45}</Project>
+      <Name>polynomialutils_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_8.vcxproj">
+      <Project>{B5092C38-071B-3620-BC71-832B379CB12B}</Project>
+      <Name>polynomialutils_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\polynomialutils_9.vcxproj">
+      <Project>{97AA4D4E-7AF0-3BC0-9A70-41514695C295}</Project>
+      <Name>polynomialutils_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\sparse_extra_1.vcxproj">
+      <Project>{571AC69C-3815-306C-BB29-C1DD680B7623}</Project>
+      <Name>sparse_extra_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\sparse_extra_2.vcxproj">
+      <Project>{8E4E75BE-8591-39FE-B550-2AEAE3814765}</Project>
+      <Name>sparse_extra_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\sparse_extra_3.vcxproj">
+      <Project>{5A34AFBD-8E30-38B3-8E49-A6DAE3DD1D6B}</Project>
+      <Name>sparse_extra_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\sparse_extra_4.vcxproj">
+      <Project>{7540A9DB-08A0-32CB-B5E1-60F7A4E54C09}</Project>
+      <Name>sparse_extra_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\sparse_extra_5.vcxproj">
+      <Project>{9E28D792-1F2D-33A6-A001-C15894060BEA}</Project>
+      <Name>sparse_extra_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_functions_1.vcxproj">
+      <Project>{F248C661-37C3-3881-8DCA-AB853B82A385}</Project>
+      <Name>special_functions_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_functions_2.vcxproj">
+      <Project>{47BB7BE8-DCD6-3978-B375-3A58D74C1A24}</Project>
+      <Name>special_functions_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_functions_3.vcxproj">
+      <Project>{21B2A97E-7A29-3701-BDF6-DD49EC4565B2}</Project>
+      <Name>special_functions_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_functions_4.vcxproj">
+      <Project>{A91E32AE-4E3B-377F-A7C7-88529CBE70C9}</Project>
+      <Name>special_functions_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_packetmath_1.vcxproj">
+      <Project>{F9EB701F-7C11-32D5-B98D-C3C323A217F7}</Project>
+      <Name>special_packetmath_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_packetmath_2.vcxproj">
+      <Project>{FA7083EF-DAD8-305F-9489-F90F47FBA627}</Project>
+      <Name>special_packetmath_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_packetmath_3.vcxproj">
+      <Project>{91B4D96D-FABF-33A6-B8FB-515AD046944D}</Project>
+      <Name>special_packetmath_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\special_packetmath_4.vcxproj">
+      <Project>{DEC1C0BD-B172-3D26-9F8B-7CA5F72FFA42}</Project>
+      <Name>special_packetmath_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\unsupported\test\splines.vcxproj">
+      <Project>{A3ABCC94-1383-3EB0-BDE3-24EE327D6AF3}</Project>
+      <Name>splines</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

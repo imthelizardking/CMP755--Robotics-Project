@@ -1,0 +1,1305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64FA2026-6B04-3A15-94D0-77F90E3F2B3D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>all_snippets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\doc\snippets\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/doc/snippets/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/doc/snippets/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/doc/snippets/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/doc/snippets/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\ZERO_CHECK.vcxproj">
+      <Project>{2C9C2B16-3E09-3CCA-8A12-6C4D530F351A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>{8BA76E11-9F81-347D-A4F6-2C0D03F2AC4D}</Project>
+      <Name>compile_AngleAxis_mimic_euler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_BiCGSTAB_simple.vcxproj">
+      <Project>{F0DD21FA-6E0F-30E0-9B06-5AC079C5E628}</Project>
+      <Name>compile_BiCGSTAB_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_BiCGSTAB_step_by_step.vcxproj">
+      <Project>{3454343F-D62C-300A-829A-ED97B8C1748B}</Project>
+      <Name>compile_BiCGSTAB_step_by_step</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>{1644BA49-C6FC-3A18-9D82-BF39466AC1A7}</Project>
+      <Name>compile_ColPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>{EDCFFAAD-0F06-3577-A29E-2F50DA8DB9F5}</Project>
+      <Name>compile_ComplexEigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>{4DD40D14-1A72-3491-B1FD-37E63EB12255}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>{9CF44939-0FFF-3DE4-8DA3-91A056202D52}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ComplexSchur_compute.vcxproj">
+      <Project>{268F7780-1A87-3650-BD8E-BE61606649DC}</Project>
+      <Name>compile_ComplexSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ComplexSchur_matrixT.vcxproj">
+      <Project>{9CFB0751-DED1-3858-908F-E674C2BFF77A}</Project>
+      <Name>compile_ComplexSchur_matrixT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_ComplexSchur_matrixU.vcxproj">
+      <Project>{BD65C336-5A71-3CD1-ABB1-2FC030BB2314}</Project>
+      <Name>compile_ComplexSchur_matrixU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_abs.vcxproj">
+      <Project>{2CC831D3-16DE-33E4-A230-EB3B57608010}</Project>
+      <Name>compile_Cwise_abs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_abs2.vcxproj">
+      <Project>{D27F4D72-1536-3E81-9F9E-E20FA66299B0}</Project>
+      <Name>compile_Cwise_abs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_acos.vcxproj">
+      <Project>{ADB9EF72-08C2-3C23-BAAA-B26C4B41BB5D}</Project>
+      <Name>compile_Cwise_acos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_arg.vcxproj">
+      <Project>{C54548FB-438B-3D8D-A6B3-A5648969750B}</Project>
+      <Name>compile_Cwise_arg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_array_power_array.vcxproj">
+      <Project>{92957606-DEE0-363F-BACA-CC73A639824A}</Project>
+      <Name>compile_Cwise_array_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_asin.vcxproj">
+      <Project>{8CE4D705-F0B0-30EE-BF91-8FFB72668E90}</Project>
+      <Name>compile_Cwise_asin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_atan.vcxproj">
+      <Project>{E1C7FF96-3DF8-3A4F-9CB3-15BBFF1B703A}</Project>
+      <Name>compile_Cwise_atan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_boolean_and.vcxproj">
+      <Project>{2AEB275D-7EA5-3119-BDE0-5559DBBA26F3}</Project>
+      <Name>compile_Cwise_boolean_and</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_boolean_not.vcxproj">
+      <Project>{E3B0E759-C8DC-3641-BCEE-F67EB4492E1D}</Project>
+      <Name>compile_Cwise_boolean_not</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_boolean_or.vcxproj">
+      <Project>{B12D6957-C227-33CA-9DFC-F5CCD354BF95}</Project>
+      <Name>compile_Cwise_boolean_or</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_boolean_xor.vcxproj">
+      <Project>{E7A9259F-7F3D-382D-A750-9A74A0C0F5F8}</Project>
+      <Name>compile_Cwise_boolean_xor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_ceil.vcxproj">
+      <Project>{7A01C0C0-EC64-377F-A24F-BF2CD61007A7}</Project>
+      <Name>compile_Cwise_ceil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_cos.vcxproj">
+      <Project>{FD5D272E-AAB0-31E0-A8D2-EF3FFD7E3ED9}</Project>
+      <Name>compile_Cwise_cos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_cosh.vcxproj">
+      <Project>{4C2CD102-5900-3B53-A0D5-F333EBB6EF30}</Project>
+      <Name>compile_Cwise_cosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_cube.vcxproj">
+      <Project>{6F1EC289-4D7F-3965-9F55-8D24A8CC08B2}</Project>
+      <Name>compile_Cwise_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_equal_equal.vcxproj">
+      <Project>{98D10F0B-72D7-3A0E-9E76-8D56BE7461E0}</Project>
+      <Name>compile_Cwise_equal_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_exp.vcxproj">
+      <Project>{8F34F3A0-939A-3F99-8507-71C4EE489740}</Project>
+      <Name>compile_Cwise_exp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_floor.vcxproj">
+      <Project>{2990440F-A0F8-388D-B09E-3EE6A19015CD}</Project>
+      <Name>compile_Cwise_floor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_greater.vcxproj">
+      <Project>{4964EA39-47CB-3E85-93DC-2BE78F284D3D}</Project>
+      <Name>compile_Cwise_greater</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_greater_equal.vcxproj">
+      <Project>{17146A42-D55E-3C83-8B7B-9A7A313D8A7B}</Project>
+      <Name>compile_Cwise_greater_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_inverse.vcxproj">
+      <Project>{E82AC662-BFDA-3A2A-B018-722F46FD5FC9}</Project>
+      <Name>compile_Cwise_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_isFinite.vcxproj">
+      <Project>{69CDA504-9AEC-37A9-92D9-528154164A71}</Project>
+      <Name>compile_Cwise_isFinite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_isInf.vcxproj">
+      <Project>{8EF8EB4B-94A1-362F-A61E-D64075FE250A}</Project>
+      <Name>compile_Cwise_isInf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_isNaN.vcxproj">
+      <Project>{2299FECE-63C4-3870-8FC6-1EE97A9855C7}</Project>
+      <Name>compile_Cwise_isNaN</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_less.vcxproj">
+      <Project>{D600B005-271C-39B7-AF87-D681B2C49292}</Project>
+      <Name>compile_Cwise_less</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_less_equal.vcxproj">
+      <Project>{C7F550DA-A03F-3505-AB47-FE9D5A1FBAAE}</Project>
+      <Name>compile_Cwise_less_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_log.vcxproj">
+      <Project>{AA325E8C-BD17-3F96-94E0-0E2E5C7B00CB}</Project>
+      <Name>compile_Cwise_log</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_log10.vcxproj">
+      <Project>{AD08FADB-F207-3CD8-A4FE-A1E1C8D46D75}</Project>
+      <Name>compile_Cwise_log10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_max.vcxproj">
+      <Project>{69401006-E290-31A0-A042-8B22DF07F11B}</Project>
+      <Name>compile_Cwise_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_min.vcxproj">
+      <Project>{7E1CAB9E-D47A-3E4A-AB08-60A7FA707C2F}</Project>
+      <Name>compile_Cwise_min</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_minus.vcxproj">
+      <Project>{E9420B70-5395-3A58-AE23-FAFB2CC8FBE9}</Project>
+      <Name>compile_Cwise_minus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_minus_equal.vcxproj">
+      <Project>{E03898FD-F9FC-3EB7-A63C-77A8C35D3BA1}</Project>
+      <Name>compile_Cwise_minus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_not_equal.vcxproj">
+      <Project>{9B6A9323-7540-3A44-B7AF-D1E23FAFD3C3}</Project>
+      <Name>compile_Cwise_not_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_plus.vcxproj">
+      <Project>{57B44C37-705D-3E19-9ECD-C92B25B5BA30}</Project>
+      <Name>compile_Cwise_plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_plus_equal.vcxproj">
+      <Project>{0AA8BABC-E205-390A-9FD5-BF3DA3F68C8E}</Project>
+      <Name>compile_Cwise_plus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_pow.vcxproj">
+      <Project>{313F9E8A-A40E-3EBE-A3D8-F4DBD76B5E15}</Project>
+      <Name>compile_Cwise_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_product.vcxproj">
+      <Project>{EE4E2656-A990-3FB8-BD03-3C5CFB0BA8B5}</Project>
+      <Name>compile_Cwise_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_quotient.vcxproj">
+      <Project>{3F28F7F3-530C-3B99-A44A-02A18F65B6C6}</Project>
+      <Name>compile_Cwise_quotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_rint.vcxproj">
+      <Project>{0B50E97A-E5C9-3787-BCB7-02FC4E39B1C4}</Project>
+      <Name>compile_Cwise_rint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_round.vcxproj">
+      <Project>{93C81962-BE03-3100-933D-62B4CD2ECD07}</Project>
+      <Name>compile_Cwise_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_scalar_power_array.vcxproj">
+      <Project>{92CE1CDE-3831-3A96-A33E-84A46D1F1CFC}</Project>
+      <Name>compile_Cwise_scalar_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_sign.vcxproj">
+      <Project>{26FDADA9-DF29-3119-B594-B568CFCB1256}</Project>
+      <Name>compile_Cwise_sign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_sin.vcxproj">
+      <Project>{8783869C-BC4D-3D22-A674-E5A9598858AF}</Project>
+      <Name>compile_Cwise_sin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_sinh.vcxproj">
+      <Project>{BBAB3788-A75E-3EDF-A354-AD49C3754FEA}</Project>
+      <Name>compile_Cwise_sinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_slash_equal.vcxproj">
+      <Project>{C515036D-94A8-3D35-BB18-C48312E6A58E}</Project>
+      <Name>compile_Cwise_slash_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_sqrt.vcxproj">
+      <Project>{C3936D37-6EF5-3407-A18D-563A80080BC3}</Project>
+      <Name>compile_Cwise_sqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_square.vcxproj">
+      <Project>{BD6A8E95-731A-3F0D-BDF0-B06593F1D17B}</Project>
+      <Name>compile_Cwise_square</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_tan.vcxproj">
+      <Project>{A7BE106A-D7E0-3EB9-A32A-67681A8F9B41}</Project>
+      <Name>compile_Cwise_tan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_tanh.vcxproj">
+      <Project>{9861EC5E-3E6A-375A-8402-7C33FC369A88}</Project>
+      <Name>compile_Cwise_tanh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Cwise_times_equal.vcxproj">
+      <Project>{76A50F28-3817-3180-B085-7C8CC4BE6C78}</Project>
+      <Name>compile_Cwise_times_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DenseBase_LinSpaced.vcxproj">
+      <Project>{8F77E02C-4A70-3953-83FE-EFDE6D1638BE}</Project>
+      <Name>compile_DenseBase_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DenseBase_LinSpacedInt.vcxproj">
+      <Project>{288B6800-3602-3862-A45A-AEED95494035}</Project>
+      <Name>compile_DenseBase_LinSpacedInt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DenseBase_LinSpaced_seq_deprecated.vcxproj">
+      <Project>{F500A4AD-3149-3955-A30A-4AF8863E65FE}</Project>
+      <Name>compile_DenseBase_LinSpaced_seq_deprecated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>{E645C506-4E10-351A-8BE2-53BB0D07AB46}</Project>
+      <Name>compile_DenseBase_setLinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DirectionWise_hnormalized.vcxproj">
+      <Project>{0FD82F6D-356D-33ED-B415-86D96F95A174}</Project>
+      <Name>compile_DirectionWise_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DirectionWise_replicate.vcxproj">
+      <Project>{165D6A51-209D-3ED9-89FF-71A2CBF0023D}</Project>
+      <Name>compile_DirectionWise_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_DirectionWise_replicate_int.vcxproj">
+      <Project>{C3B73E97-6961-3E67-9762-AF0439D39388}</Project>
+      <Name>compile_DirectionWise_replicate_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>{DC2B6F90-D7EC-3406-8432-E9A386B4D593}</Project>
+      <Name>compile_EigenSolver_EigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_EigenSolver_compute.vcxproj">
+      <Project>{C120D812-B634-37A1-B908-6A0AE0C88C48}</Project>
+      <Name>compile_EigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>{BA60BAF4-FCEB-3FCF-8426-9B058F249390}</Project>
+      <Name>compile_EigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>{1EC639AC-ADFB-3941-9FF5-B2613CC76077}</Project>
+      <Name>compile_EigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>{08CA4597-173A-33F3-A620-A5C16DD8B676}</Project>
+      <Name>compile_EigenSolver_pseudoEigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>{43D5C7D3-D479-39DB-AF0E-2ADCC7E89C5C}</Project>
+      <Name>compile_FullPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_FullPivLU_image.vcxproj">
+      <Project>{8837C9C2-144E-3A08-811E-65928E8956C5}</Project>
+      <Name>compile_FullPivLU_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_FullPivLU_kernel.vcxproj">
+      <Project>{3A2024D8-6153-3120-91C7-8B4DA4FE9A22}</Project>
+      <Name>compile_FullPivLU_kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_FullPivLU_solve.vcxproj">
+      <Project>{9ECF3FE3-8F70-308A-AC6C-89F2BF8B09C2}</Project>
+      <Name>compile_FullPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_GeneralizedEigenSolver.vcxproj">
+      <Project>{6764BB16-8628-3EC1-A3B0-89B3BFA82EE4}</Project>
+      <Name>compile_GeneralizedEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>{C7057821-CC1C-39D0-97B6-CE010E3F6E15}</Project>
+      <Name>compile_HessenbergDecomposition_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>{96F7185C-1E44-3A6B-BAB4-89E4398BE61A}</Project>
+      <Name>compile_HessenbergDecomposition_matrixH</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>{19AED208-1805-3E3A-B428-8CE75C6B2D20}</Project>
+      <Name>compile_HessenbergDecomposition_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_HouseholderQR_householderQ.vcxproj">
+      <Project>{96DF7462-EB30-3FB3-BDCB-A3D22AB297A5}</Project>
+      <Name>compile_HouseholderQR_householderQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_HouseholderQR_solve.vcxproj">
+      <Project>{2D950BD4-428C-34F3-BD72-9F4E374283FB}</Project>
+      <Name>compile_HouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>{BD7ADCF7-AD14-3503-803C-DFE888C93351}</Project>
+      <Name>compile_HouseholderSequence_HouseholderSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_IOFormat.vcxproj">
+      <Project>{848BC61E-C1A2-3940-94FF-19171C6D7A34}</Project>
+      <Name>compile_IOFormat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_JacobiSVD_basic.vcxproj">
+      <Project>{4E0CA863-D293-3410-B27D-FEB40C976864}</Project>
+      <Name>compile_JacobiSVD_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Jacobi_makeGivens.vcxproj">
+      <Project>{19A2C4E2-4B37-3290-895E-AD6C466E3EA4}</Project>
+      <Name>compile_Jacobi_makeGivens</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Jacobi_makeJacobi.vcxproj">
+      <Project>{3F118873-7665-3E0E-9117-C905AD487AF7}</Project>
+      <Name>compile_Jacobi_makeJacobi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_LLT_example.vcxproj">
+      <Project>{1FC04513-6114-348B-88A1-47591757CDF0}</Project>
+      <Name>compile_LLT_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_LLT_solve.vcxproj">
+      <Project>{78193BB2-3A4F-3027-AB71-FFA059564A2E}</Project>
+      <Name>compile_LLT_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_LeastSquaresNormalEquations.vcxproj">
+      <Project>{6FCD9A46-2314-3C6E-8019-C7EE78409F77}</Project>
+      <Name>compile_LeastSquaresNormalEquations</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_LeastSquaresQR.vcxproj">
+      <Project>{9B9086B7-63D5-31EA-B2DA-DEFC41BE67C6}</Project>
+      <Name>compile_LeastSquaresQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Map_general_stride.vcxproj">
+      <Project>{3FA09E59-C0C0-3723-A015-62B2034D2EB9}</Project>
+      <Name>compile_Map_general_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Map_inner_stride.vcxproj">
+      <Project>{05ECD8D8-B56B-3EE6-A3D6-226829B87065}</Project>
+      <Name>compile_Map_inner_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Map_outer_stride.vcxproj">
+      <Project>{5C7F00DC-0F91-39D3-9245-61098B0FEDE0}</Project>
+      <Name>compile_Map_outer_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Map_placement_new.vcxproj">
+      <Project>{34BB4B7E-64BE-31B3-A1BE-92C1F1CA528B}</Project>
+      <Name>compile_Map_placement_new</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Map_simple.vcxproj">
+      <Project>{4F605027-6CE7-33B3-916D-3BA52B070CB0}</Project>
+      <Name>compile_Map_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_adjoint.vcxproj">
+      <Project>{5368C53B-8498-3831-BBC5-8DF0B58111F6}</Project>
+      <Name>compile_MatrixBase_adjoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_all.vcxproj">
+      <Project>{95D5063D-5386-391B-8F6C-D9E4DF8625F5}</Project>
+      <Name>compile_MatrixBase_all</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>{C6E6B0D0-0339-3A42-A76E-A8B5B32F78F9}</Project>
+      <Name>compile_MatrixBase_applyOnTheLeft</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>{757C5D55-5DF8-39FE-A979-298C92DF2938}</Project>
+      <Name>compile_MatrixBase_applyOnTheRight</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_array.vcxproj">
+      <Project>{3683B658-CCBE-3CDF-B350-940CB6CC06A3}</Project>
+      <Name>compile_MatrixBase_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_array_const.vcxproj">
+      <Project>{E8E56343-DD57-3FFD-925B-2FB9B21C6D2F}</Project>
+      <Name>compile_MatrixBase_array_const</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>{BD1EBB0C-B253-32AC-A9F2-64DDA5579FDB}</Project>
+      <Name>compile_MatrixBase_asDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_block_int_int.vcxproj">
+      <Project>{1D7492A0-ACCB-3691-BFC5-9DB8CDE26AB7}</Project>
+      <Name>compile_MatrixBase_block_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>{DDFE9F58-81E4-3B62-9AC8-D003507346A1}</Project>
+      <Name>compile_MatrixBase_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>{72A0C3D1-6B6D-3710-83CF-FB9287D17A8D}</Project>
+      <Name>compile_MatrixBase_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>{4A2CFD16-F0BF-3C92-9E4A-79111C15F816}</Project>
+      <Name>compile_MatrixBase_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>{CB641D9C-A61F-33DF-A133-E6C961B93AB7}</Project>
+      <Name>compile_MatrixBase_bottomRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cast.vcxproj">
+      <Project>{9470299E-8675-312E-94DE-D22C939CDF95}</Project>
+      <Name>compile_MatrixBase_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_col.vcxproj">
+      <Project>{9A016E26-4372-3BA4-A440-BEC77927E7D7}</Project>
+      <Name>compile_MatrixBase_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_colwise.vcxproj">
+      <Project>{C3FDE13B-AA89-3FD2-83B0-49DC98B15505}</Project>
+      <Name>compile_MatrixBase_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>{9A4E8A8A-0BA6-3696-AE3D-F2C793A106E8}</Project>
+      <Name>compile_MatrixBase_computeInverseAndDetWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>{E69A50EF-AD40-3D2A-B604-8C320A726962}</Project>
+      <Name>compile_MatrixBase_computeInverseWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>{03FF74C9-D9BB-394B-BC98-71AA466F6C1D}</Project>
+      <Name>compile_MatrixBase_cwiseAbs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>{F0CB167D-13F4-382B-BB18-6F03A237F7C3}</Project>
+      <Name>compile_MatrixBase_cwiseAbs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseArg.vcxproj">
+      <Project>{D79377F6-E96D-37FF-A537-60DBC0885093}</Project>
+      <Name>compile_MatrixBase_cwiseArg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>{AD2988EE-7142-3EC1-A60C-A023B9BF6E4B}</Project>
+      <Name>compile_MatrixBase_cwiseEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>{8FCE4B02-B634-37E9-9767-CFF377A6D237}</Project>
+      <Name>compile_MatrixBase_cwiseInverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>{14DA4522-4492-3508-AA52-7744A89AB8CB}</Project>
+      <Name>compile_MatrixBase_cwiseMax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>{F44C2E0D-8D78-3A33-99E4-4E8D4B328C2A}</Project>
+      <Name>compile_MatrixBase_cwiseMin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>{3EDCE527-E22C-3450-8895-4CD0883DB8FE}</Project>
+      <Name>compile_MatrixBase_cwiseNotEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>{773AFCB9-A178-31FD-821F-8F5C92BC2519}</Project>
+      <Name>compile_MatrixBase_cwiseProduct</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>{342E84B9-C7FC-357E-BBB2-976F1D31AC23}</Project>
+      <Name>compile_MatrixBase_cwiseQuotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseSign.vcxproj">
+      <Project>{CB989DD0-D1BF-36A6-BBFF-03DEB0BBEA00}</Project>
+      <Name>compile_MatrixBase_cwiseSign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>{DD00CAA4-1A38-317E-915C-B5B30CF492F0}</Project>
+      <Name>compile_MatrixBase_cwiseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_diagonal.vcxproj">
+      <Project>{94270D4D-E28B-357B-906C-C20A02E02C35}</Project>
+      <Name>compile_MatrixBase_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>{0B045402-AD92-3957-B9AB-6F37DB48BD9E}</Project>
+      <Name>compile_MatrixBase_diagonal_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>{9B75302A-FDD8-38CF-BC8E-A60C3A461C5E}</Project>
+      <Name>compile_MatrixBase_diagonal_template_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>{26E7569D-700B-3926-9054-59FD15A65A55}</Project>
+      <Name>compile_MatrixBase_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_end_int.vcxproj">
+      <Project>{D8B3D4B8-A32A-3999-BB3B-F303978B1A6D}</Project>
+      <Name>compile_MatrixBase_end_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_eval.vcxproj">
+      <Project>{05E184A3-D2D5-39F5-B61C-D4F4450D71ED}</Project>
+      <Name>compile_MatrixBase_eval</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>{3FDCE943-4873-3D97-A513-89F7AA121CB3}</Project>
+      <Name>compile_MatrixBase_fixedBlock_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_hnormalized.vcxproj">
+      <Project>{55CDEF49-B4AC-3AA2-ADEF-40278C67931D}</Project>
+      <Name>compile_MatrixBase_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_homogeneous.vcxproj">
+      <Project>{64F180EC-4E9D-34FD-90D7-9E5CF03FF084}</Project>
+      <Name>compile_MatrixBase_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_identity.vcxproj">
+      <Project>{36210AC3-B6D9-39E7-88A2-F2BED3EFB527}</Project>
+      <Name>compile_MatrixBase_identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>{7E296A99-F708-3381-A66F-921740672B23}</Project>
+      <Name>compile_MatrixBase_identity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_inverse.vcxproj">
+      <Project>{419A44B3-59CA-3049-A116-9939338B9C6D}</Project>
+      <Name>compile_MatrixBase_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>{19120C49-D04F-38EB-B32F-65CD4FC4B17E}</Project>
+      <Name>compile_MatrixBase_isDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_isIdentity.vcxproj">
+      <Project>{072F8DBE-116E-3FE3-89F8-325BFAC5F0F4}</Project>
+      <Name>compile_MatrixBase_isIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_isOnes.vcxproj">
+      <Project>{2F8D03DE-1665-350E-9155-C48C2BA3E11A}</Project>
+      <Name>compile_MatrixBase_isOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>{EA807B9A-C16C-393F-ADEA-EE79FA1E07B0}</Project>
+      <Name>compile_MatrixBase_isOrthogonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_isUnitary.vcxproj">
+      <Project>{E874C3E2-C620-3DF3-8F3D-1C5DA70ADBE5}</Project>
+      <Name>compile_MatrixBase_isUnitary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_isZero.vcxproj">
+      <Project>{B72D86AD-BAFC-35D0-B227-D71ECFF7E2C6}</Project>
+      <Name>compile_MatrixBase_isZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>{006974CB-99B3-334F-9797-B62187AC86AE}</Project>
+      <Name>compile_MatrixBase_leftCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_noalias.vcxproj">
+      <Project>{DC544489-625A-3BF5-9882-BCB28100411B}</Project>
+      <Name>compile_MatrixBase_noalias</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_ones.vcxproj">
+      <Project>{A4207842-5CA9-3475-9989-E62513D485E8}</Project>
+      <Name>compile_MatrixBase_ones</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_ones_int.vcxproj">
+      <Project>{BA3AB77F-45C6-3618-AB20-118ACF372612}</Project>
+      <Name>compile_MatrixBase_ones_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>{D1138BAC-187E-332F-8DC7-107011998960}</Project>
+      <Name>compile_MatrixBase_ones_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>{1A6DD4EE-508F-36B0-8041-80172F1B6EF8}</Project>
+      <Name>compile_MatrixBase_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_prod.vcxproj">
+      <Project>{3E1D9ED9-D078-314E-AF49-6D2BC675F452}</Project>
+      <Name>compile_MatrixBase_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_random.vcxproj">
+      <Project>{8D651BE3-1ECC-3848-AF1A-F41CDC39CC39}</Project>
+      <Name>compile_MatrixBase_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_random_int.vcxproj">
+      <Project>{486C6ABC-B79F-3A74-B043-D60326A1AD5F}</Project>
+      <Name>compile_MatrixBase_random_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_random_int_int.vcxproj">
+      <Project>{E8DBCD1F-2C08-31E1-B4F3-4D5D1E05BE64}</Project>
+      <Name>compile_MatrixBase_random_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_replicate.vcxproj">
+      <Project>{0BB4B61E-74FF-3F43-AE85-B96732BCD993}</Project>
+      <Name>compile_MatrixBase_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>{CE45DF0B-F952-3472-A8F5-5C1A4056DFCB}</Project>
+      <Name>compile_MatrixBase_replicate_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_reshaped_auto.vcxproj">
+      <Project>{8F0595EB-53B7-37D6-9490-58E4E89CBBD1}</Project>
+      <Name>compile_MatrixBase_reshaped_auto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_reshaped_fixed.vcxproj">
+      <Project>{5B0CC369-479E-37B3-BD46-58172327DBE5}</Project>
+      <Name>compile_MatrixBase_reshaped_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_reshaped_int_int.vcxproj">
+      <Project>{4E4755F2-52BA-3AA9-8FE1-364094AA5D3F}</Project>
+      <Name>compile_MatrixBase_reshaped_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_reshaped_to_vector.vcxproj">
+      <Project>{F5D65364-054C-3A55-9727-E2E2F0A02615}</Project>
+      <Name>compile_MatrixBase_reshaped_to_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_reverse.vcxproj">
+      <Project>{567286B8-B279-3AB3-8A49-7D1391A5CDBB}</Project>
+      <Name>compile_MatrixBase_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>{9F6D0BD4-5DC0-3C84-BB6C-C308AB26B27A}</Project>
+      <Name>compile_MatrixBase_rightCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_row.vcxproj">
+      <Project>{E729C97B-749B-3B4B-9858-9840A28F69C6}</Project>
+      <Name>compile_MatrixBase_row</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_rowwise.vcxproj">
+      <Project>{C44599B2-41C0-3C12-9853-936E879E1EDF}</Project>
+      <Name>compile_MatrixBase_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>{CA048931-1093-3482-A133-4D75DF7AE97A}</Project>
+      <Name>compile_MatrixBase_segment_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_select.vcxproj">
+      <Project>{EF56A277-3EE2-341F-B532-F23A92AD4A67}</Project>
+      <Name>compile_MatrixBase_select</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_selfadjointView.vcxproj">
+      <Project>{AE5ABCC8-EA76-37DD-B370-74CB07A8F0E0}</Project>
+      <Name>compile_MatrixBase_selfadjointView</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_set.vcxproj">
+      <Project>{D49AB6BF-85B2-3ADB-9D92-63B7700A2BEE}</Project>
+      <Name>compile_MatrixBase_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_setIdentity.vcxproj">
+      <Project>{D3BD5886-2BD0-3876-AF0B-5F94964EA56C}</Project>
+      <Name>compile_MatrixBase_setIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_setOnes.vcxproj">
+      <Project>{FEBC0766-9579-3FEA-A4AA-E6445EA55D31}</Project>
+      <Name>compile_MatrixBase_setOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_setRandom.vcxproj">
+      <Project>{B3F23EB2-4D63-3A5D-9B47-B542CD4407AC}</Project>
+      <Name>compile_MatrixBase_setRandom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_setZero.vcxproj">
+      <Project>{71C9E6D1-DE12-3BD2-B03F-A7E2EFCDE035}</Project>
+      <Name>compile_MatrixBase_setZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_start_int.vcxproj">
+      <Project>{3635EE14-150D-3E8B-A144-C86259165788}</Project>
+      <Name>compile_MatrixBase_start_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>{B9977BED-B482-33A2-A40F-3B0AD7F2F657}</Project>
+      <Name>compile_MatrixBase_template_int_bottomRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_end.vcxproj">
+      <Project>{03724EC2-98DD-3804-8BAA-09144BC640B0}</Project>
+      <Name>compile_MatrixBase_template_int_end</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>{76CF26DF-0263-3A01-B91E-56C19FA82CFA}</Project>
+      <Name>compile_MatrixBase_template_int_int_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>{3AC8D267-6217-3A64-85D4-C5947E144635}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>{01867AA5-CFB3-3B54-B20F-4D4F7F7BAA16}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>{C25BEC7D-E56B-3615-8726-56D1E1F6DACF}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>{249C372F-D2AB-3885-AD23-DA80794AC01D}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>{733B918A-3B8A-37AB-9E15-491CE18DAF61}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>{F39797F9-DD36-3BF9-A2CD-AC4D85DFD40D}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>{8AF93FF4-B34B-39B8-A036-409133F58F2C}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>{92611C58-CE88-34D3-8D9D-0C26E5785693}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>{22BE880A-A59E-3727-AD0F-96BF338D19D5}</Project>
+      <Name>compile_MatrixBase_template_int_leftCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>{9792F3A0-7EAD-3463-9CA2-688E9D783A84}</Project>
+      <Name>compile_MatrixBase_template_int_rightCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>{24E0A476-6782-362C-8EA2-3077B81AA18E}</Project>
+      <Name>compile_MatrixBase_template_int_segment</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_start.vcxproj">
+      <Project>{1455A6CE-3387-35A1-80CB-225B865BCD82}</Project>
+      <Name>compile_MatrixBase_template_int_start</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>{D2DF1645-ABDB-3014-96F0-DDB798997B13}</Project>
+      <Name>compile_MatrixBase_template_int_topRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>{76396432-8EAB-31A5-B070-80B181D20455}</Project>
+      <Name>compile_MatrixBase_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>{C6BEAA1C-1550-3558-A9CF-A07D37A5EF5D}</Project>
+      <Name>compile_MatrixBase_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_topRows_int.vcxproj">
+      <Project>{9ECB0EB6-840E-37C8-9281-A85E11A655C4}</Project>
+      <Name>compile_MatrixBase_topRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_transpose.vcxproj">
+      <Project>{36639805-211A-30F3-AC74-744ED4952471}</Project>
+      <Name>compile_MatrixBase_transpose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_triangularView.vcxproj">
+      <Project>{EBDAB08C-9918-34E0-A76C-0F79803F6DA8}</Project>
+      <Name>compile_MatrixBase_triangularView</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_zero.vcxproj">
+      <Project>{7EC71F7F-CCBA-3330-BB7F-2A345CC276D2}</Project>
+      <Name>compile_MatrixBase_zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_zero_int.vcxproj">
+      <Project>{51F23820-0058-39C9-B749-F1AEEFF9F468}</Project>
+      <Name>compile_MatrixBase_zero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>{71C0831B-0851-3212-8730-520B7C5A4470}</Project>
+      <Name>compile_MatrixBase_zero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_Map_stride.vcxproj">
+      <Project>{23785BCD-149D-3A35-AA5E-8356B44C6FEA}</Project>
+      <Name>compile_Matrix_Map_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>{4FDE2E8C-E537-3697-B5BD-CCDEF09993D6}</Project>
+      <Name>compile_Matrix_resize_NoChange_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_resize_int.vcxproj">
+      <Project>{57611A4C-3022-3F9E-A93F-F3EB79699DF7}</Project>
+      <Name>compile_Matrix_resize_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>{7D9A6ACB-5EFF-3F92-A1B7-F60E44730E09}</Project>
+      <Name>compile_Matrix_resize_int_NoChange</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_resize_int_int.vcxproj">
+      <Project>{3D88EFB4-A5E8-3B23-B008-598BAB00A284}</Project>
+      <Name>compile_Matrix_resize_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setConstant_int.vcxproj">
+      <Project>{B35C7572-5E6B-3A3A-91D6-2D6C36A1BFA5}</Project>
+      <Name>compile_Matrix_setConstant_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>{2CBAC2D9-F22E-33DA-B02D-7801EA866127}</Project>
+      <Name>compile_Matrix_setConstant_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>{6E1FA04B-B9E8-3BC7-97B1-78CF4EA27B24}</Project>
+      <Name>compile_Matrix_setIdentity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setOnes_int.vcxproj">
+      <Project>{E0C49542-CA86-3986-9FD2-70F2B66B7F5E}</Project>
+      <Name>compile_Matrix_setOnes_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>{2969CC69-2DC8-3624-A2B3-727DF6E9B223}</Project>
+      <Name>compile_Matrix_setOnes_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setRandom_int.vcxproj">
+      <Project>{3F3AC18E-DAEB-3FBD-B8DE-2898E790EDF7}</Project>
+      <Name>compile_Matrix_setRandom_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>{25F8DA6E-C037-37A1-81A0-D8712DB47AF0}</Project>
+      <Name>compile_Matrix_setRandom_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setZero_int.vcxproj">
+      <Project>{255899FA-48C1-38A3-81C1-EF035E1CC7AF}</Project>
+      <Name>compile_Matrix_setZero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Matrix_setZero_int_int.vcxproj">
+      <Project>{2F18F47D-B930-35F3-AD2A-7B26F91B2E03}</Project>
+      <Name>compile_Matrix_setZero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialPivLU_solve.vcxproj">
+      <Project>{604546A9-D644-39E5-A1FA-528553D7515C}</Project>
+      <Name>compile_PartialPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_count.vcxproj">
+      <Project>{395EC95E-C173-3AE3-92F2-FA02D6333120}</Project>
+      <Name>compile_PartialRedux_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>{9839B998-C432-3144-B624-B424A8835DDF}</Project>
+      <Name>compile_PartialRedux_maxCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_minCoeff.vcxproj">
+      <Project>{87F44A7F-16B4-35AF-9096-6B40CA301C24}</Project>
+      <Name>compile_PartialRedux_minCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_norm.vcxproj">
+      <Project>{CE9AC356-3EFC-3B1D-B578-9605671022A9}</Project>
+      <Name>compile_PartialRedux_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_prod.vcxproj">
+      <Project>{25E68548-317F-392A-B101-38F97A9409D0}</Project>
+      <Name>compile_PartialRedux_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>{38DE1E8D-8DF9-3646-AF51-6ADCBD33865D}</Project>
+      <Name>compile_PartialRedux_squaredNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_PartialRedux_sum.vcxproj">
+      <Project>{B5C1BE79-43E1-3BB7-B010-EACD281F0ADE}</Project>
+      <Name>compile_PartialRedux_sum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_RealQZ_compute.vcxproj">
+      <Project>{BCEA7272-62F0-3800-88DB-1F0B1E13E255}</Project>
+      <Name>compile_RealQZ_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>{3E1EA0CB-DBAC-3C28-A0A9-2AAD94BF5DF1}</Project>
+      <Name>compile_RealSchur_RealSchur_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_RealSchur_compute.vcxproj">
+      <Project>{315E2BD5-6EE6-3123-B94F-97DB751D928A}</Project>
+      <Name>compile_RealSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>{E4F13E9E-5E78-39E0-B57B-7AF25A3C100A}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>{A56132C9-DC5A-3574-A330-6626F7AD0EE4}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>{8D436198-D276-3D30-9212-F8CBF2912E91}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>{71ECD267-21C5-39B1-93E2-F4D0DF9D8487}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>{B84EF384-D459-3E29-8610-DF6831E1662D}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>{D84CF305-5744-3DA2-9504-5353DFBBA1FB}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>{181A1497-E980-31DF-AA9F-0414C6B7E237}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>{B30397E2-9CD9-3570-8A33-1B88D9BB4434}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorInverseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>{89FF39FF-8AC8-328E-9F47-AB754B486A78}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>{F7BC315D-9134-3934-852D-573125E845D9}</Project>
+      <Name>compile_SelfAdjointView_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>{CD9BD5A7-0E9F-38AD-8190-ACDBAF84FCD1}</Project>
+      <Name>compile_SelfAdjointView_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Slicing_arrayexpr.vcxproj">
+      <Project>{1F2BC853-C057-376E-B333-9D88C6F46634}</Project>
+      <Name>compile_Slicing_arrayexpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_SparseMatrix_coeffs.vcxproj">
+      <Project>{0639FB82-82F0-3D90-BF48-91894730C63A}</Project>
+      <Name>compile_SparseMatrix_coeffs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_block.vcxproj">
+      <Project>{52C9BF0C-57EC-3FE5-88DB-1EC87D17DF2D}</Project>
+      <Name>compile_TopicAliasing_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_block_correct.vcxproj">
+      <Project>{48DE837D-1032-35FC-8EEB-3CB7B337C851}</Project>
+      <Name>compile_TopicAliasing_block_correct</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_cwise.vcxproj">
+      <Project>{0CDF3D6A-A647-3869-B8C6-F19A12624D4D}</Project>
+      <Name>compile_TopicAliasing_cwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_mult1.vcxproj">
+      <Project>{5AD384F9-C03D-3917-B348-65BFFBE60878}</Project>
+      <Name>compile_TopicAliasing_mult1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_mult2.vcxproj">
+      <Project>{2F660855-70C4-3CBB-9A49-B4B59F77749E}</Project>
+      <Name>compile_TopicAliasing_mult2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_mult3.vcxproj">
+      <Project>{7BBE50FF-404E-3E20-A1C4-21F1B8737E04}</Project>
+      <Name>compile_TopicAliasing_mult3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_mult4.vcxproj">
+      <Project>{35617DD2-C19F-3428-9F08-9A2B4AA29CA0}</Project>
+      <Name>compile_TopicAliasing_mult4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicAliasing_mult5.vcxproj">
+      <Project>{A49DCD07-A850-360E-AE91-B9B5676ABF03}</Project>
+      <Name>compile_TopicAliasing_mult5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_TopicStorageOrders_example.vcxproj">
+      <Project>{20B05CAA-6879-3E3C-B8E2-881A08790117}</Project>
+      <Name>compile_TopicStorageOrders_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Triangular_solve.vcxproj">
+      <Project>{DFFB9075-AE79-31B0-A207-F982791C1ADD}</Project>
+      <Name>compile_Triangular_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>{2540FC45-313C-373F-850B-15D6BF1CF288}</Project>
+      <Name>compile_Tridiagonalization_Tridiagonalization_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tridiagonalization_compute.vcxproj">
+      <Project>{08591ADF-A35B-3430-9B04-31662F742A6A}</Project>
+      <Name>compile_Tridiagonalization_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>{7D50FA07-0F36-3E91-979B-28D00EFA1095}</Project>
+      <Name>compile_Tridiagonalization_decomposeInPlace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>{395B432B-7F07-3A5E-8E3D-AC73CAF03643}</Project>
+      <Name>compile_Tridiagonalization_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>{C67302AB-DAED-3C0C-A70F-B482F55CAAED}</Project>
+      <Name>compile_Tridiagonalization_householderCoefficients</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>{EE6BFF40-4E04-3840-9463-E00810D5EFC9}</Project>
+      <Name>compile_Tridiagonalization_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>{96ED5039-A14E-37C9-ADEA-368CE5D08B00}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>{28405C16-3D4F-3041-B56D-1F6733465F96}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_CommaTemporary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>{93D1670E-A1A5-32CE-8F39-A7BF859647A8}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Join</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>{F7EC9125-05F9-38EF-A68E-C75081BECA7E}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>{1DE87EE4-ABF2-3D02-B21F-F2FB7FE30A5E}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_ThreeWays</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>{C215ED9F-35A3-374E-921B-C2AACD6BF7E3}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>{3988A359-1D26-35BD-896E-A9C59A5195D0}</Project>
+      <Name>compile_Tutorial_Map_rowmajor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_Map_using.vcxproj">
+      <Project>{2CCFD727-238A-34A3-87CC-FC28504CED79}</Project>
+      <Name>compile_Tutorial_Map_using</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_ReshapeMat2Mat.vcxproj">
+      <Project>{81804E2C-7A66-3FB4-A6E4-92A0EEECC12B}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_ReshapeMat2Vec.vcxproj">
+      <Project>{7643870C-CE96-3C9F-A029-0C8D32FCBD62}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Vec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_SlicingCol.vcxproj">
+      <Project>{4FDB8EA7-6B61-3259-B696-AE71695D3D93}</Project>
+      <Name>compile_Tutorial_SlicingCol</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_SlicingVec.vcxproj">
+      <Project>{071CE168-801A-394C-AB5E-92B76BF34CF6}</Project>
+      <Name>compile_Tutorial_SlicingVec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_commainit_01.vcxproj">
+      <Project>{8B14CC38-CA1A-3A60-8D7D-16AB4B5CBCD9}</Project>
+      <Name>compile_Tutorial_commainit_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_commainit_01b.vcxproj">
+      <Project>{FFA981AC-FB46-394C-9258-227D577090E1}</Project>
+      <Name>compile_Tutorial_commainit_01b</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_commainit_02.vcxproj">
+      <Project>{B13E3FF0-67DD-3AD8-814D-9F68A5CC4048}</Project>
+      <Name>compile_Tutorial_commainit_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_reshaped_vs_resize_1.vcxproj">
+      <Project>{0B83AC93-5CE1-3830-B75B-F1E25158F847}</Project>
+      <Name>compile_Tutorial_reshaped_vs_resize_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_reshaped_vs_resize_2.vcxproj">
+      <Project>{33F8ECD8-C50C-3738-9563-69FE8F9B87A1}</Project>
+      <Name>compile_Tutorial_reshaped_vs_resize_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>{4F8EC32E-2C76-32B0-A9C4-F7FABDC35849}</Project>
+      <Name>compile_Tutorial_solve_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>{4789892F-7C0E-3B38-BED0-D5D9AB1E4CD5}</Project>
+      <Name>compile_Tutorial_solve_multiple_rhs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>{9D5EC4F1-054D-3EC8-8B85-66C666513068}</Project>
+      <Name>compile_Tutorial_solve_reuse_decomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_solve_singular.vcxproj">
+      <Project>{A3F71872-8A57-3818-AD6A-4481A8889126}</Project>
+      <Name>compile_Tutorial_solve_singular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_solve_triangular.vcxproj">
+      <Project>{A04BD382-4341-38FF-868A-145A1AEE16C9}</Project>
+      <Name>compile_Tutorial_solve_triangular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>{1C5B44D6-DDB7-36B0-BC66-033A40A2535B}</Project>
+      <Name>compile_Tutorial_solve_triangular_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Tutorial_std_sort.vcxproj">
+      <Project>{0DB031CF-D64B-38A3-8CB2-944FDE668D62}</Project>
+      <Name>compile_Tutorial_std_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_VectorwiseOp_homogeneous.vcxproj">
+      <Project>{E6EB52D3-8938-3417-A7F3-1D1CDAC238FF}</Project>
+      <Name>compile_VectorwiseOp_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_Vectorwise_reverse.vcxproj">
+      <Project>{54F5A294-AD31-31EB-99BA-A36357FEA6A1}</Project>
+      <Name>compile_Vectorwise_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_class_FullPivLU.vcxproj">
+      <Project>{AFE49939-CA3A-311B-BD3F-75186D776CCC}</Project>
+      <Name>compile_class_FullPivLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>{B3532612-7CAD-33B5-8B3B-496D82EE12C0}</Project>
+      <Name>compile_tut_arithmetic_redux_minmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>{54AB55F7-7280-3D1B-B7B0-3D321FA540CF}</Project>
+      <Name>compile_tut_arithmetic_transpose_aliasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>{342A0766-230E-3855-82F3-6BC742A2A512}</Project>
+      <Name>compile_tut_arithmetic_transpose_conjugate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>{8A353804-DE92-375C-BB91-37B7701706D5}</Project>
+      <Name>compile_tut_arithmetic_transpose_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\doc\snippets\compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>{E6F48BC0-EC5F-361B-AF7D-8A6318040857}</Project>
+      <Name>compile_tut_matrix_assignment_resizing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

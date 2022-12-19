@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AA0A1EB-F8BB-3538-9002-02BEA8300D63}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>packetmath</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\MacroAddFileDependencies.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\EigenSmokeTestList.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindBLAS.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindCHOLMOD.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindHWLOC.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindKLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindLAPACK.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindPASTIX.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSPQR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSuperLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\MacroAddFileDependencies.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\EigenSmokeTestList.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindBLAS.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindCHOLMOD.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindHWLOC.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindKLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindLAPACK.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindPASTIX.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSPQR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSuperLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\MacroAddFileDependencies.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\EigenSmokeTestList.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindBLAS.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindCHOLMOD.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindHWLOC.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindKLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindLAPACK.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindPASTIX.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSPQR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSuperLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3 "-BC:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder" --check-stamp-file "C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/New folder/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\MacroAddFileDependencies.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\EigenSmokeTestList.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindBLAS.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindCHOLMOD.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindHWLOC.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindKLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindLAPACK.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindPASTIX.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSPQR.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindSuperLU.cmake;C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\Eigen3\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\ZERO_CHECK.vcxproj">
+      <Project>{2C9C2B16-3E09-3CCA-8A12-6C4D530F351A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_1.vcxproj">
+      <Project>{E91DA2C8-D8A1-3474-B522-EE3A20971A5B}</Project>
+      <Name>packetmath_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_10.vcxproj">
+      <Project>{A81E05F5-0E55-33D3-8CAF-70A9BD10AF2D}</Project>
+      <Name>packetmath_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_11.vcxproj">
+      <Project>{C8045A65-DBB9-38CA-8AD2-DFE5053AD405}</Project>
+      <Name>packetmath_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_12.vcxproj">
+      <Project>{5C96CAC6-6D50-324B-8920-239152ADC1F1}</Project>
+      <Name>packetmath_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_13.vcxproj">
+      <Project>{67259B09-A139-3BF1-9945-34F2C2283E67}</Project>
+      <Name>packetmath_13</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_14.vcxproj">
+      <Project>{6802E7F1-4248-3348-8FEC-A6F2EC1375FC}</Project>
+      <Name>packetmath_14</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_15.vcxproj">
+      <Project>{8EEEDE28-0E7F-310A-BC5B-8203049935CB}</Project>
+      <Name>packetmath_15</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_2.vcxproj">
+      <Project>{98BD11D9-ED9A-3EE5-A2C7-05FDA7A5C526}</Project>
+      <Name>packetmath_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_3.vcxproj">
+      <Project>{5ECAB173-90F7-3577-B1EC-CB5859C87752}</Project>
+      <Name>packetmath_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_4.vcxproj">
+      <Project>{6A86D50E-D9D9-35B6-93B5-43F4807021A2}</Project>
+      <Name>packetmath_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_5.vcxproj">
+      <Project>{11897C7D-E266-300D-91B4-87C59EE6CCEE}</Project>
+      <Name>packetmath_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_6.vcxproj">
+      <Project>{B528365E-1CCB-3BA1-877A-4621B0F6E324}</Project>
+      <Name>packetmath_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_7.vcxproj">
+      <Project>{7149F70B-7670-3AE6-8C72-136E81D6D80D}</Project>
+      <Name>packetmath_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_8.vcxproj">
+      <Project>{B266A9B5-3A1D-3EB0-AD24-4A8BF4B88845}</Project>
+      <Name>packetmath_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\test\packetmath_9.vcxproj">
+      <Project>{7899D5B2-D6FA-3300-AE6D-0877BA9D3567}</Project>
+      <Name>packetmath_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yusuf\Documents\MATLAB\CMP755--Robotics-Project\matlab\New folder\CMakeFiles\7c6faa9a8f4532537dbc25b8123b41d2\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99C8C59C-C376-336F-95C7-78C357EC8EC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

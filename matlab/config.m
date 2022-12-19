@@ -13,6 +13,6 @@ function opt = config
     % 
     % Path to the top level clone directory is sufficient - do not include
     % the final path to the internal header directory inside the clone.
-    opt.Eigen3Dir = '';
+    opt.Eigen3Dir = 'C:/Users/Yusuf/Documents/MATLAB/CMP755--Robotics-Project/matlab/Eigen3';
 
 end
