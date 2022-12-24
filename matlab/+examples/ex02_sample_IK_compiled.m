@@ -1,23 +1,23 @@
-% ==========================
-% ex02_sample_IK_compiled
-% ==========================
-%
-% This script demonstrates the use of the C++ package in matlab.
-% Note, you must have a valid C++ compiler installed on your computer, and
-% configured to run with matlab. Check the help for mex -setup c++ for more
-% details.
-
-%% Part 1: Code compilation
-% To compile the C++ code, you must have an eigen3 directory somewhere on
-% your computer. You can just clone this from the eigen github, 
-% https://gitlab.com/libeigen/eigen/-/releases/3.4.0. You must
-% tell matlab where to find this directory in /matlab/config.m.
-% Once this is done, you can run the code below which generates the
-% necessary mex-files.
-%
-% This code only needs to be run once per machine.
-
-QuIK_cpp.make();
+% % % % % ==========================
+% % % % % ex02_sample_IK_compiled
+% % % % % ==========================
+% % % % %
+% % % % % This script demonstrates the use of the C++ package in matlab.
+% % % % % Note, you must have a valid C++ compiler installed on your computer, and
+% % % % % configured to run with matlab. Check the help for mex -setup c++ for more
+% % % % % details.
+% % % % 
+% % % % %% Part 1: Code compilation
+% % % % % To compile the C++ code, you must have an eigen3 directory somewhere on
+% % % % % your computer. You can just clone this from the eigen github, 
+% % % % % https://gitlab.com/libeigen/eigen/-/releases/3.4.0. You must
+% % % % % tell matlab where to find this directory in /matlab/config.m.
+% % % % % Once this is done, you can run the code below which generates the
+% % % % % necessary mex-files.
+% % % % %
+% % % % % This code only needs to be run once per machine.
+% % % % 
+% % % % QuIK_cpp.make();
 
 %% Part 2: Setup Test
 
@@ -56,6 +56,9 @@ Q0 = Q + 0.1*2*(rand(r.DOF, N)-.5);
 
 % Call inverse kinematics to find the original angles (matlab code)
 t_matlab = timeit( @() QuIK.IK( r, Twt, Q0, opt ) )/N;
+[Q_star, ec] = QuIK.IK( r, Twt, Q0, opt );
+e_norm = vecnorm(horzcat(ec.e), 2, 1); % errors
+%iter = horzcat(ec.iter); % number of iterations
 
 % Call inverse kinematics to find the original angles (c++ code)
 t_cpp = timeit( @() QuIK_cpp.IK( r, Twt, Q0, opt ) )/N;
