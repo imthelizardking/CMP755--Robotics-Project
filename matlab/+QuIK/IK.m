@@ -1,4 +1,4 @@
-function [Q, ec] = IK( r, Twt, Q0, opt )
+function [Q, ec, arr_error] = IK( r, Twt, Q0, opt )
     % IK A basic IK implementation of the QuIK, NR and BFGS algorithms.
     %
     % [Q, ec] = QuIK.IK( r, Twt, Q0, opt )
@@ -97,7 +97,7 @@ function [Q, ec] = IK( r, Twt, Q0, opt )
     H = coder.nullcopy( zeros(DOF, n) );
     grad = coder.nullcopy( zeros(n, 1) );
     cost = 1e10;
-            
+    arr_error = zeros(opt.iterMax,N);
     % Loop through each sample
     for k = int32(1):N
         %% Single Inverse Kinematics Solution
@@ -119,10 +119,10 @@ function [Q, ec] = IK( r, Twt, Q0, opt )
                 % calculated
                 % Get FK
                 Ti = QuIK.FK(r, Qi);
-
                 % Get error
                 ei = QuIK.hgtDiff( Ti(:, :, end), Twt(:, :, k) );
-                
+                % Get error for Fig.3
+                arr_error(i,k) = norm(ei);
                 % Get Jacobian
                 Ji = QuIK.jacobian(r, Ti);
             end

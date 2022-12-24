@@ -47,8 +47,7 @@ for i = 1:N
 end
 
 % Perturb the poses slightly
-% This code perturbs them with random numbers in the range -0.1 to 0.1
-%Q0 = Q + 0.1*2*(rand(r.DOF, N)-.5);
+% This code perturbs them with random numbers in the range * -pi/4 to pi/4 *
 Q0 = Q + pi/4*2*(rand(r.DOF, N)-.5);
 
 
@@ -66,4 +65,19 @@ t_cpp = timeit( @() QuIK_cpp.IK( r, Twt, Q0, opt ) )/N;
 fprintf("QuIK matlab library took is %.1f us per sample.\n", t_matlab*1e6);
 fprintf("C++ took is %.1f us per sample.\n", t_cpp*1e6);
 fprintf("C++ is %.1f times faster.\n", t_matlab/t_cpp);
+
+%% Part 4: Algorithm Convergence
+
+i1 = median(arr_errors(1,:));
+i2 = median(arr_errors(2,:));
+i3 = median(arr_errors(3,:));
+i4 = median(arr_errors(4,:));
+i5 = median(arr_errors(5,:));
+i6 = median(arr_errors(6,:));
+i7 = median(arr_errors(7,:));
+i8 = median(arr_errors(8,:));
+err_medians = [i1,i2,i3,i4,i5,i6,i7,i8];
+x = 1:8;
+plot(x,err_medians)
+ylim([10^(-20),1])
 
