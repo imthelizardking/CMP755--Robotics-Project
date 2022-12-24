@@ -58,7 +58,7 @@ Q0 = Q + 0.1*2*(rand(r.DOF, N)-.5);
 t_matlab = timeit( @() QuIK.IK( r, Twt, Q0, opt ) )/N;
 [Q_star, ec] = QuIK.IK( r, Twt, Q0, opt );
 e_norm = vecnorm(horzcat(ec.e), 2, 1); % errors
-%iter = horzcat(ec.iter); % number of iterations
+iter = horzcat(ec.iter); % number of iterations
 
 % Call inverse kinematics to find the original angles (c++ code)
 t_cpp = timeit( @() QuIK_cpp.IK( r, Twt, Q0, opt ) )/N;
