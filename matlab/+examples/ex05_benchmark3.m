@@ -54,12 +54,14 @@ IK_matlab.make();
 % run. You can try increasing the number of samples or rest-time
 % to improve the consistency of the results.
 
-% Make an array of robots
+%Make an array of robots
 rs = [robots.KUKA_KR6();
       robots.KUKA_KR6_cal();
       robots.KUKA_iiwa7();
       robots.jaco();
-      robots.atlas()];
+      robots.atlas();
+      robots.robot_test();
+      robots.robot755()];
 
 % Run benchmark
 [filepath, data1] = benchmark.benchmark3( rs, ...

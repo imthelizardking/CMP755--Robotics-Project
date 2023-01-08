@@ -36,6 +36,10 @@ function [stats, sol] = runIK(r, Q, Q0, Twt, param, opt)
                     [sol.Q_star, ~, sol.iter, sol.breakReason] = IK_matlab.IK_jaco_mex(Twt, Q0, param.opt);
                 case 'atlas'
                     [sol.Q_star, ~, sol.iter, sol.breakReason] = IK_matlab.IK_atlas_mex(Twt, Q0, param.opt);
+                case 'robot_test'
+                    [sol.Q_star, ~, sol.iter, sol.breakReason] = IK_matlab.IK_robot_test_mex(Twt, Q0, param.opt);
+                case 'robot755'
+                    [sol.Q_star, ~, sol.iter, sol.breakReason] = IK_matlab.IK_robot755_mex(Twt, Q0, param.opt);
                 otherwise
                     error('Invalid robot given');
             end

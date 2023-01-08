@@ -21,11 +21,15 @@ function make(rid)
     cfg.MATLABSourceComments = true;
     
     % Robots to compile
-    compile_robots = [robots.KUKA_KR6();
-                      robots.KUKA_KR6_cal();
-                      robots.jaco();
-                      robots.KUKA_iiwa7();
-                      robots.atlas()];
+%     compile_robots = [robots.KUKA_KR6();
+%                       robots.KUKA_KR6_cal();
+%                       robots.jaco();
+%                       robots.KUKA_iiwa7();
+%                       robots.atlas()
+%                       robots.robot_test();
+%                       robots.robot755();
+%                       ];
+    compile_robots = [robots.robot755()];    
 
     for i = 1:numel(compile_robots)
         
